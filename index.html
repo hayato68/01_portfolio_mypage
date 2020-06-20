@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="{{site.github.url}}" charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+  <title>My PAGE</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="">
+</head>
+<body>
+  <header>
+    <div class="header-top flex is-between is-center">
+      <div class="header-left">
+        <p class="fa fa-book-open"><span>TANAPAGE</span></p>
+      </div>
+      <div class="header-right">
+        <a href="https://twitter.com/hayaton_68"><p class="fab fa-twitter"></p></a>
+        <a href="https://www.instagram.com/otayah_86/"><p class="fab fa-instagram"></p></a>
+      </div>
+    </div>
+    <div id="js-gnavbtn" class="gnavbtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav class="gnav">
+      <ul class="flex is-between">
+        <li><a href="">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+
+  <div class="mv"><img src="./img/sean-o-KMn4VEeEPR8-unsplash.jpeg"   width="100%"  alt=""></div>
+  
+  <section class="introduction">
+    <h2>INTRODUCTION</h2>
+    <h3>welcome to My page</h3>
+    <div class="introduction-sentence">
+      <p>this is a site that shows my introduction and portfolio.</p>
+      <p>I am new to programming, and i am planning to increase the portfolio from now on, so i hope you can see it in the announcement.</p>
+      <p>Please follow us on Twitter and Instagram.</p>
+    </div>
+  </section>
+
+  <section class="news-wrap">
+      <div class="news-title"> 
+        <h2>NEWS</h2>
+      </div>
+      <dl class="news-list">
+        <dt>2020/05/15</dt>
+        <dd>Mac book Airを購入</dd>
+      </dl>
+      <dl class="news-list">
+        <dt>2020/04/19</dt>
+        <dd>プログラミングに出会い、独学を始める。</dd>
+      </dl>
+      <dl class="news-list">
+        <dt>2020/03/17</dt>
+        <dd>愛知県私立大学を卒業</dd>
+      </dl>
+  </section>
+
+  <footer>
+    <div class="footer-wrap">
+        <div class="footer-title">
+          <p class="fa fa-book-open"><span>TANAPAGE</span></p>
+          </div>
+        <div class="footer-list">
+          <ul class="flex ">
+            <li><a href="">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-link flex ">
+          <p><a href="https://twitter.com/hayaton_68">公式twitterはこちら<span class="fab fa-twitter"></span></a></p>
+          <p><a href="https://www.instagram.com/otayah_86/">公式instagramはこちら<span class="fab fa-instagram"></span></a></p>
+        </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+    $(function() {
+      $("#js-gnavbtn").click(function() {
+      $('body').toggleClass("show");
+      });
+    });
+  </script>
+</body>
+</html>

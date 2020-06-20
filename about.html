@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="{{site.github.url}}" charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+  <title>My PAGE About</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-top flex is-between is-center">
+      <div class="header-left">
+        <p class="fa fa-book-open"><span>TANAPAGE</span></p>
+      </div>
+      <div class="header-right">
+        <a href="https://twitter.com/hayaton_68"><p class="fab fa-twitter"></p></a>
+        <a href="https://www.instagram.com/otayah_86/"><p class="fab fa-instagram"></p></a>
+      </div>
+    </div>
+    <div id="js-gnavbtn" class="gnavbtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav class="gnav">
+      <ul class="flex is-between">
+        <li><a href="./index.html">Home</a></li>
+        <li class="active"><a href="">About</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./contact.html">Contact</a></li>li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="about">
+    <h2 class="about-title">ABOUT</h2>
+    <div class="about-menu flex ">
+      <img class="about-icon" src="./img/beauty_1572073938093.jpeg" width="35%" alt="">
+      <div class="about-from">
+        <p class="about-name">田中 颯人（たなか
+          はやと）</p>
+        <p>愛知県出身</p>
+        <p>1997/6/8</p>
+        <ul >
+          <li>2016/4 愛知県私立大学に入学</li>
+          <li>2020/3 愛知県私立大学を卒業</li>
+          <li>2020/4 愛知県内で現在就職中</li>
+          <li>趣味：ウォーキング・プログラミング・テニス</li>
+        </ul>
+      </div>
+    </div>
+    <p class="about-sentence">自分が本当にやりたいことを探してる最中にプログラミングに出会い興味を持ちました。
+      progateやドットインストールなどで独学し、プログラミングで仕事をしたいと思っています。
+      将来的にはフロントエンドのエンジニアを目指しています。
+    </p>
+  </section>
+  
+  <div class="mv"><img src="./img/dan-gold-NneNzn0vs44-unsplash.jpeg" 
+    alt=""></div>
+
+  <footer>
+    <div class="footer-wrap">
+        <div class="footer-title">
+          <p class="fa fa-book-open"><span>TANAPAGE</span></p>
+          </div>
+        <div class="footer-list">
+          <ul class="flex ">
+            <li><a href="./index.html">Home</a></li>
+        <li class="active"><a href="">About</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-link flex ">
+          <p><a href="https://twitter.com/hayaton_68">公式twitterはこちら<span class="fab fa-twitter"></span></a></p>
+          <p><a href="https://www.instagram.com/otayah_86/">公式instagramはこちら<span class="fab fa-instagram"></span></a></p>
+        </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+    $(function() {
+      $("#js-gnavbtn").click(function() {
+      $('body').toggleClass("show");
+      });
+    });
+  </script>
+</body>
+</html>

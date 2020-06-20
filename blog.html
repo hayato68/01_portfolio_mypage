@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="{{site.github.url}}" charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+  <title>My PAGE News</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-top flex is-between is-center">
+      <div class="header-left">
+        <p class="fa fa-book-open"><span>TANAPAGE</span></p>
+      </div>
+      <div class="header-right">
+        <a href="https://twitter.com/hayaton_68"><p class="fab fa-twitter"></p></a>
+        <a href="https://www.instagram.com/otayah_86/"><p class="fab fa-instagram"></p></a>
+      </div>
+    </div>
+    <div id="js-gnavbtn" class="gnavbtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav class="gnav">
+      <ul class="flex is-between">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li class="active"><a href="">Blog</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="blog">
+    <div class="blog-title">
+      <h2>BLOG</h2>
+      <h3>No.1Portfolioの作成</h3>
+      <p>2020/05/25</p>
+    </div>
+    <div class="blog-main">
+      <img src="./img/IMG_0033.jpeg" width="60%
+      "alt="">
+      <p>プログラミングを独学して1ヶ月ほどがたちようやく自身のwebサイトを構築することに挑戦してみようと思っております。
+        簡単なコーディングしかできませんが、まだまだ時間がかかってしまうので、完成するのはいつになることやら。笑
+      </p>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="footer-wrap">
+        <div class="footer-title">
+          <p class="fa fa-book-open"><span>TANAPAGE</span></p>
+          </div>
+        <div class="footer-list">
+          <ul class="flex ">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li class="active"><a href="">Blog</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-link flex ">
+          <p><a href="https://twitter.com/hayaton_68">公式twitterはこちら<span class="fab fa-twitter"></span></a></p>
+            <p><a href="https://www.instagram.com/otayah_86/">公式instagramはこちら<span class="fab fa-instagram"></span></a></p>
+        </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+    $(function() {
+      $("#js-gnavbtn").click(function() {
+      $('body').toggleClass("show");
+      });
+    });
+  </script>
+</body>
+</html>
